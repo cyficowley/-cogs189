@@ -40,8 +40,7 @@ while True:
 
         while headset.poor_signal > 5:
             # shouldn't happen
-            print("Poor connection or signal, try readjusting headset")
-            print("and probably restart trial")
+            print("Poor connection or signal")
             time.sleep(1)
 
         attention_data.append(headset.attention)
